@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Deniz Turkcapar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <link rel="stylesheet" href="project.css">
+    <!-- favicon-->
+    <link rel="icon" type="image/x-icon" href="./assets/indexpage/icon.png">
+
+
+
+</head>
+
+<!--NAVBAR-->
+<div class="links">
+    <nav class="navbar">
+        <div class="navbar-expand ml-auto navbar-nav">
+            <div class="navbar-nav">
+                <a class="nav-link active hvr-float" href="https://denizturkcapar.github.io">HOME</a> &nbsp;
+                <a class="nav-link active hvr-float" href="experience.html">EXPERIENCE</a> &nbsp;
+                <a class="nav-link active hvr-float" href="projects.html">PROJECTS</a> &nbsp;
+                <a class="nav-link active hvr-float" href="about.html">ABOUT</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<br>
+
+<body>
+
+    <div style="max-width: 90%">
+        <div class="row">
+
+            <!-- save this for last few 
+            <div class="col-1">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-dc-tab" data-toggle="pill" href="#v-pills-dc" role="tab" aria-controls="v-pills-dc" aria-selected="true">DestressCyborg</a>
+                    <a class="nav-link" id="v-pills-hice-tab" data-toggle="pill" href="#v-pills-hice" role="tab" aria-controls="v-pills-hice" aria-selected="false">HICE</a>
+                    <a class="nav-link" id="v-pills-sr-tab" data-toggle="pill" href="#v-pills-sr" role="tab" aria-controls="v-pills-sr" aria-selected="false">SafeRoute</a>
+                    <a class="nav-link" id="v-pills-securl-tab" data-toggle="pill" href="#v-pills-securl" role="tab" aria-controls="v-pills-securl" aria-selected="false">SecURL</a>
+                </div>
+            </div>
+        -->
+            <div class="col-3">
+
+                <ul class="nav nav-pills flex-column" style="padding-left: 1%;">
+                    <br><br> Jump to: <br>
+                    <li><a class="nav-link my-1" href="#v-pills-kafka">Kafka <br> Tooling</a></li>
+                    <li><a class="nav-link my-1" href="#v-pills-yelp">Predicting Yelp Elite Status</a></li>
+                    <li><a class="nav-link my-1" href="#v-pills-spellcheck">Spellcheck <br> Tool</a></li>
+                    <li><a class="nav-link  my-1" href="#v-pills-twitter">Twitter <br> Sentiment <br> Analysis</a></li>
+                    <!--
+                    <li> <a class="nav-link" href="/assets/Email_Tracking_Final_Report___Fixed.pdf">Email Tracking <br> Research </i> </a> </li>
+                    -->
+                    <li><a class="nav-link my-1" href="#v-pills-other"> More <i class="fa fa-arrow-down"></i> </a> </li>
+
+
+
+
+                </ul>
+            </div>
+
+
+
+            <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+
+                    <div class="projsection" id="v-pills-kafka" role="tabpanel" aria-labelledby="v-pills-kafka-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> Kafka Tooling </h1>
+                                    <small style="color:gray"> <i> Apache Kafka <br> July 2019 </i> </small> <br><br>
+                                    <p class="projdesc">
+                                        <b> Apache Kafka</b> is an open-source stream-processing software platform that <b> Braintree </b> uses to stream transaction information in real time. As part of my internship at Braintree, I focused on building tools that could make interacting with Kafka much easier for the platform teams and decrease the load on the Kafka brokers for better performance. I designed and implemented a notification system infrastructure to alert all downstream dependents when a Kafka topic is misbehaving in a
+                                        production environment using Capistrano task deployment system. I've also set up a new cloud-based infrastructure to decrease load on Kafka brokers by 43% and keep Kafka tooling separate for other teams’ usage
+                                        cools you down.
+                                        <br> Please reach out to me via e-mail to see the project
+                                    </p>
+<!--
+                                    <a href="https://www.youtube.com/watch?v=2FJ7gL_br_M&feature=youtu.be" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                                        See the Demo
+                                    </a>
+-->
+                                </div>
+                            </div>
+                            <div data-aos="fade-left">
+                                <img src="assets/proj_pics/apache_kafka.png" class="projpic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projsection" id="v-pills-yelp" role="tabpanel" aria-labelledby="v-pills-yelp-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> Predicting Yelp Elite Status </h1>
+                                    <small style="color:gray"> <i> Big Data <br> May 2019 </i> </small> <br><br>
+                                    <p class="projdesc">
+                                        Yelp Elite Status is a nomination based status that some Yelp members can qualify for. However, the Yelp community seems eluded on what the requierements are to be an elite member. In order to answer this question, my team and I developed a logistic regression model using some hypothesized factors by the Yelp community. In addition to it, we used natural language processing via the Flesch Reading Ease algorithm, which helped to see if elevated language in reviews contributed to the Elite status.
+                                        <br> Please reach out to me via e-mail to see the project
+                                    </p>
+                                    <!--
+                                    <a href="https://journeyfoods.io/" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                                                More
+                                            </a>
+                                    -->
+                                </div>
+                            </div>
+                            <div data-aos="fade-left">
+                                <img src="assets/proj_pics/yelp_logo.jpg" class="projpic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projsection" id="v-pills-spellcheck" role="tabpanel" aria-labelledby="v-pills-spellcheck-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> Spellcheck Tool </h1>
+                                    <small style="color:gray"> <i> CMSC 22200 Software Engineering <br> Spring 2018 </i> </small> <br><br>
+                                    <p class="projdesc">
+                                        Redis is an in-memory data structure project implementing a distributed, in-memory key-value database with optional durability that supports different kinds of abstract data structures. A Trie data structure did not exist in Redis before, so it was an interesting challenge tom implement a Trie data structure in C for Redis. We then extended this trie data structure to use in a spellcheck tool that we wrote to work in Redis. Using the trie data structure, we achieved to spellcheck in O(n) time complexity.
+                                    </p>
+
+                                    <a href="https://github.com/cmsc22000-project-2018/spellcheck"> 
+                                    See the Project
+
+                                    
+                                    </a>
+                                </div>
+                            </div>
+                            <div data-aos="fade-left">
+                                <img src="assets/proj_pics/redis_logo_stack.png" class="projpic">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="projsection" id="v-pills-twitter" role="tabpanel" aria-labelledby="v-pills-twitter-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> Twitter Sentiment Analysis </h1>
+                                    <small style="color:gray"> <i> Personal Project <br> Winter 2018 </i> </small> <br><br>
+                                    <p class="projdesc">
+                                        Compliance Carnivores is a project exploring the compliance of online financial content with SEC/FINRA regulations. I worked with another intern to compile research on "bad actor" companies and case laws, and I solely built a platform to detect future
+                                        compliance violations.
+                                        <br> Please reach out to me via e-mail to see the project and check out my github to see some part of the published project
+                                    </p>
+                                    <a href="https://github.com/denizturkcapar/SentimentAnalysis"> 
+                                    See the Project
+
+                                    
+                                    </a>
+                                    <!-- 
+                                    <a href="https://journeyfoods.io/" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                                         More
+                                    </a>
+                                    -->
+                                </div>
+                            </div>
+                            <div data-aos="fade-left">
+                                <img src="assets/proj_pics/twitter_logo.png" class="projpic">
+                            </div>
+                        </div>
+                    </div>
+
+<!--
+
+                    <div class="projsection" id="v-pills-sr" role="tabpanel" aria-labelledby="v-pills-sr-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> SafeRoute </h1>
+                                    <small style="color:gray"> <i> ByteHacks 2018 </i> </small> <br><br>
+                                    <p class="projdesc">
+                                        SafeRoute is a web application that determines the safest route home based on public crime data. The application gives each route a 'safety score,' and generates a heat map with interactive and informative markers.
+                                        <br>
+                                        <Br> My inspiration for this project came from friends and family who wanted to feel safe when running at night, or when walking in neighborhoods they didn't know well.
+                                    </p>
+                                    <!-- 
+                                    <a href="https://journeyfoods.io/" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                                    More
+                                </a>
+                                -->
+
+                                <!--
+                                </div>
+                            </div>
+                            <div data-aos="fade-left">
+                                <img src="assets/port_pics copy/saferoute.png" class="projpic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projsection" id="v-pills-ax" role="tabpanel" aria-labelledby="v-pills-ax-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> Albus: AnatomyX </h1>
+                                    <small style="color:gray"> <i> Medivis: AnatomyX <br> June 2018 - September 2018 </i> </small> <br><br>
+                                    <p class="projdesc">
+                                        Albus is the database I built and designed to store anatomy part data at Medivis. I created a corresponding REST API and an online data-editing platform for internal and external use.
+                                    </p>
+                                    <!-- 
+                                    <a href="https://journeyfoods.io/" target="_blank" class="btn btn-outline-dark btn-sm"> 
+                                                 More
+                                            </a>
+                                            -->
+                                            <!--
+                                </div>
+                            </div>
+                            <div data-aos="fade-left">
+                                <img src="assets/port_pics copy/medivis.png" class="projpic">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="projsection" id="v-pills-other" role="tabpanel" aria-labelledby="v-pills-ax-tab">
+                        <div class="row">
+                            <div class="col">
+                                <div id="intro" data-aos="fade-up" data-aos-duration="3001">
+                                    <h1> More</h1>
+                                    <ul>
+                                        <li> <a href="/assets/Email_Tracking_Final_Report___Fixed.pdf">Mental Models on Email Tracking <i> (Research Paper)</i> </a> </li>
+                                        <br><br>
+                                        <li> <a href="https://medium.com/@melaniechow/3d-printed-wearable-button-bdae2b5273ef">Light Me Up: 3D Wearable </a> </li>
+                                        <br><br>
+                                        <li> <a href="https://medium.com/@melaniechow/using-a-rotary-encoder-on-an-arduino-18f543ae7f78"> Rotary Encoder: Arduino   </a> </li>
+                                        <br><br>
+                                        <li> <a href="https://medium.com/@melaniechow/using-a-joystick-sensor-on-an-arduino-3498d7399464"> Joystick: Arduino  </a> </li>
+                                    </ul>
+                                    <br><br>
+                                    <!-- 
+                                    <p class="projdesc">
+                                        <h4> GreenFeed </h4>
+                                        <h4> Light Me Up</h4>
+                                        <h4> ChiTCP </h4>
+                                        <h4> ChIRC</h4>
+
+                                    </p>
+                                    ->
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <!-- 
+        <div class="col-9 ">
+            <div class="tab-content " id="v-pills-tabContent ">
+                <div class="tab-pane fade show active " id="v-pills-dc " role="tabpanel " aria-labelledby="v-pills-dc-tab ">
+                    <h1>Destress Cyborg</h1>
+                </div>
+                <div class="tab-pane fade " id="v-pills-hice " role="tabpanel " aria-labelledby="v-pills-hice-tab ">
+                    <h1>HICE</h1>
+                </div>
+                <div class="tab-pane fade " id="v-pills-sr " role="tabpanel " aria-labelledby="v-pills-sr-tab ">
+                    <h1>SafeRoute</h1>
+                </div>
+                <div class="tab-pane fade " id="v-pills-securl " role="tabpanel " aria-labelledby="v-pills-securl-tab ">
+                    <h1>SecURL</h1>
+                </div>
+            </div>
+        </div>
+    -->
+                                </div>
+
+                            </div>
+</body>
+
+</html>

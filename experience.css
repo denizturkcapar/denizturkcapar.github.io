@@ -1,39 +1,24 @@
-experience.css
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap');
-h1 {
-    font-size: 570%;
-}
-
-ul,
-li {
-    list-style-type: none;
-    list-style-position: inside;
-    margin: 0;
-    padding: 0;
-    font-size: 95%;
-}
-
 body {
     position: relative;
 }
 
-.links {
-    font-size: 120%;
-    font-family: Montserrat;
-    padding-top: 15px;
-    margin-right: 2%;
-    padding-bottom: 0px;
+ul.nav-pills {
+    top: 20px;
+    position: fixed;
 }
 
-.projlinks {
-    font-size: 80%;
-    font-family: Montserrat;
-    margin: 0px;
-    width: 120px;
-    display: block;
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-a {
+li {
+    display: inline;
+}
+
+.links a {
     color: #ACACAC;
 }
 
@@ -42,8 +27,69 @@ a:hover {
     text-decoration: underline;
 }
 
-.projtitle {
+.expdesc {
+    max-height: 400px;
+    padding-right: 3px;
+    max-width: 100%;
+}
+
+.exppic {
+    max-width: 95%;
+    max-height: 350px;
+    padding-right: .5%;
+}
+
+.links {
+    font-size: 120%;
+    color: black;
     font-family: Montserrat;
+    padding-top: 15px;
+    margin-right: 2%;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+.expLinks {
+    padding: 10px;
+}
+
+.experiencesection {
+    padding: 30px;
+}
+
+#section1 {
+    color: #fff;
+    background-color: #1E88E5;
+}
+
+#section2 {
+    color: #fff;
+    background-color: #673ab7;
+}
+
+#section3 {
+    color: #fff;
+    background-color: #ff9800;
+}
+
+#section41 {
+    color: #fff;
+    background-color: #00bcd4;
+}
+
+#section42 {
+    color: #fff;
+    background-color: #009688;
+}
+
+@media screen and (max-width: 810px) {
+    #section1,
+    #section2,
+    #section3,
+    #section41,
+    #section42 {
+        margin-left: 150px;
+    }
 }
 
 .hvr-float {
